@@ -8,11 +8,7 @@ function NavBar() {
   return (
     <nav className="navbar">
       <div className="logo-container">
-        <img
-          src="Client\public\vi logo.png"
-          alt="VI Icon"
-          className="logo-icon"
-        />
+        <img src="vi logo.png" alt="VI Icon" className="logo-icon" />
         <h3 className="logo">VIDEO AI</h3>
       </div>
       <ul
