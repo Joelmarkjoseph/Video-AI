@@ -33,8 +33,10 @@ function Login() {
         // Store the token and userId (ensure userId is retrieved from backend)
         localStorage.setItem("token", result.token);
         localStorage.setItem("userId", result.userId || uname); // Store userId from response or use uname as fallback
+        localStorage.setItem("userName", result.name); // Store userId from response or use uname as fallback
 
-        window.location.href = "https://callwithai.netlify.app";
+        window.location.href =
+          "https://callwithai.netlify.app?name=" + result.name;
       } else {
         console.error("Login failed:", result.message);
         alert(result.message); // Show error message to the user

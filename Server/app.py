@@ -98,7 +98,7 @@ def login():
         # Generate JWT token
         token = generate_jwt(user)
 
-        return jsonify({"message": "Login successful", "token": token}), 200
+        return jsonify({"message": "Login successful", "token": token, "userId": uname, "name": user.name}), 200 
     else:
         return jsonify({"message": "Invalid email or password"}), 401
 
