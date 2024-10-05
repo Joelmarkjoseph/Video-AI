@@ -11,7 +11,7 @@
   
   .navbar {
     background-color: #1a66d8;
-    height: 60px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,8 +25,8 @@
   }
   
   .logo-icon {
-    width: 40px; /* Adjust as needed */
-    height: 40px; /* Adjust as needed */
+    width: 60px; /* Adjust as needed */
+    height: 60px; /* Adjust as needed */
     margin-right: 10px; /* Space between icon and logo text */
     border-radius: 50px;
   }

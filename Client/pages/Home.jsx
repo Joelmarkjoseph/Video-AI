@@ -21,12 +21,16 @@ function Home() {
         </video>
 
         <header className="home-header">
-          <h1 style={styl}>Welcome to VIDEO AI</h1>
-          <br />
+          <h1 style={styl}>VIDEO AI</h1>
+          <p style={styl}>
+            A Video Calling App which can give you an Emotional support, <br />{" "}
+            Live AI Teacher, Personal Assistance
+          </p>
+          <br /> <br />
           <button
             id="tryitbtn"
             onClick={() =>
-              (window.location.href = "https://callwithai.netlify.app")
+              (window.location.href = "https://videowithai.netlify.app")
             }
           >
             TRY IT

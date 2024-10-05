@@ -36,7 +36,7 @@ function Login() {
         localStorage.setItem("userName", result.name); // Store userId from response or use uname as fallback
 
         window.location.href =
-          "https://callwithai.netlify.app?name=" + result.name;
+          "https://videowithai.netlify.app?name=" + result.name;
       } else {
         console.error("Login failed:", result.message);
         alert(result.message); // Show error message to the user
