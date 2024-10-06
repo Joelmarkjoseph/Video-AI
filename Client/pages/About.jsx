@@ -33,11 +33,11 @@ function About() {
               Learn more about Joel
             </a>
           </div>
-          <div className="creator-profile">
+          {/* <div className="creator-profile">
             <h2>Thowhid</h2>
             <img src="IMG_20240928_102108.jpg" alt="Sk Thowhid" />
             <p>Thowhid acted as a resource person and Figma Collaborator.</p>
-          </div>
+          </div> */}
 
           <div className="creator-profile">
             <h2>Harshini</h2>

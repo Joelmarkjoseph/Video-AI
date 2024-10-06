@@ -1,0 +1,55 @@
+/* Dashboard.css */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6f86d6, #48c6ef);
+    color: #fff;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .options {
+    display: flex;
+    gap: 20px;
+  }
+  
+  button {
+    padding: 15px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-video {
+    background-color: #ff7e67;
+    color: #fff;
+  }
+  
+  .btn-video:hover {
+    background-color: #ff5733;
+  }
+  
+  .btn-chat {
+    background-color: #48c6ef;
+    color: #fff;
+  }
+  
+  .btn-chat:hover {
+    background-color: #00aaff;
+  }
+  

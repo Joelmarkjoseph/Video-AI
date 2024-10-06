@@ -32,11 +32,11 @@ function Login() {
 
         // Store the token and userId (ensure userId is retrieved from backend)
         localStorage.setItem("token", result.token);
-        localStorage.setItem("userId", result.userId || uname); // Store userId from response or use uname as fallback
-        localStorage.setItem("userName", result.name); // Store userId from response or use uname as fallback
+        localStorage.setItem("userId", result.userId || uname);
+        localStorage.setItem("userName", result.name);
 
-        window.location.href =
-          "https://videowithai.netlify.app?name=" + result.name;
+        // Redirect to the dashboard after login
+        navigate("/dashboard");
       } else {
         console.error("Login failed:", result.message);
         alert(result.message); // Show error message to the user
